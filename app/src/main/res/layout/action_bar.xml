@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!--Root container-->
+    <LinearLayout
+        android:id="@+id/root_container"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/draggable_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:backgroundTint="@color/colorDeepGrey"
+            android:background="@drawable/ic_more_horiz_black_24dp" />
+        <ImageButton
+            android:id="@+id/btnStartRecording"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_radius_100_stroke_grey_bg_white"
+            android:src="@drawable/selector_play_button" />
+        <ImageButton
+            android:id="@+id/btnStopRecording"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/shape_radius_100_stroke_grey_bg_white"
+            android:src="@drawable/selector_stop_button" />
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/shape_radius_100_stroke_grey_bg_white"
+            android:src="@drawable/selector_close_button" />
+    </LinearLayout>
+
+</FrameLayout>
